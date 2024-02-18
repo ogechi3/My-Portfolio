@@ -16,12 +16,17 @@ body {
 header {
   margin: 0, 0, 30px;
 }
-main{
-  margin-top:60px;
+main {
+  margin-top: 60px;
 }
 nav {
   display: flex;
   justify-content: space-between;
+}
+
+img {
+  width: 50px;
+  border-radius: 30px;
 }
 
 nav ul {
@@ -45,12 +50,9 @@ li {
 a {
   color: var(--secondary-color);
 }
-.hero {
-  text-align: center;
-  background-color: #fafafa;
-}
 
 p {
   font-family: var(--secondary-font-family);
-  font-weight: 300;
+  font-weight: 400;
+  opacity: 0.8;
 }
